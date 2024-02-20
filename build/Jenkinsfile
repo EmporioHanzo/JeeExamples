@@ -3,7 +3,7 @@ pipeline {
             label 'linux'
     }
     options {
-      buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '1', numToKeepStr: '3')
+      buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '3', daysToKeepStr: '', numToKeepStr: '3')
     }
     stages {
         stage ('compile/test') {
