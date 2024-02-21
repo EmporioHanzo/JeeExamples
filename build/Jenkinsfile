@@ -1,8 +1,8 @@
-PipelineWithClosure {
+/*PipelineWithClosure {
     key  = 'test'
     value = 1
     // ...
-}
+}*/
 
 mavenBuildsPipeLine {
     cron = "H * * * *"
