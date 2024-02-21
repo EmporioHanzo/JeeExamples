@@ -4,8 +4,9 @@
     // ...
 }*/
 @Library('library') _
-mavenBuildsPipeLine {
+/*mavenBuildsPipeLine {
     cron = "H * * * *"
     label = "linux"
     maven = "maven3"
-}
+}*/
+mavenBuildsPipeLine()
